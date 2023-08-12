@@ -1,0 +1,484 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav button {
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    padding: 5px 10px 5px 10px;
+    background: none;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+nav img {
+    max-width: 100px;
+    height: 23px;
+}
+
+
+
+
+.huddle h1 {
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+}
+
+.huddle p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.huddle button {
+    margin-left: 77px;
+    padding: 10px;
+    border: none;
+    color: white;
+    box-shadow: 0px 2px 4px 0.1px rgb(196, 193, 193);
+    border-radius: 20px;
+    background: hsl(322, 100%, 66%);
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 300px;
+    padding: 10px;
+}
+
+.huddle-view {
+    margin-left: 80px;
+}
+
+.huddle-view img {
+    width: 30px;
+}
+
+.huddle-view h2 {
+    font-size: 50px;
+}
+
+.huddle-view p {
+    font-size: 13px;
+    padding-top: 10px;
+    color: rgb(117, 114, 114)
+}
+
+.huddle-icon {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.huddle-icon img {
+    width: 30px;
+
+}
+
+.huddle-icon h2 {
+    font-size: 50px;
+}
+
+.huddle-icon p {
+    font-size: 13px;
+    padding-top: 10px;
+    color: rgb(117, 114, 114)
+}
+.huddle-title{
+    background-image: url(../images/bg-section-bottom-mobile-1.svg);
+    background-color: hsl(207, 100%, 98%);
+    background-position: bottom;
+    padding-bottom: 20px;   
+    background-repeat: no-repeat;
+}
+
+.huddle-image h2 {
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.huddle-image p {
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.image-huddle img {
+    max-width: 300px;
+    margin-bottom: 30px;
+    margin-left: 8px;
+}
+
+.huddle-builder h2{
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.huddle-builder button{
+    padding: 10px 15px 10px 15px;
+    margin-left: 81px;
+    color: white;
+    margin-bottom: 35px;
+    background: hsl(322, 100%, 66%);
+    cursor: pointer;
+    border: 1px hsl(322, 93%, 61%);
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 0.1px rgb(196, 193, 193);
+}
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+.huddle-footer{
+    padding: 20px;
+}
+.huddle-footer svg{
+    width: 140px;
+    height: 32px;
+    margin-left: 11px;
+}
+.title-huddle-box p{
+    padding: 9px;
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.phone img{
+    width: 15px;
+    margin-right: 9px;
+}
+.phone{
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 8px;
+}
+.email{
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 8px;
+}
+.email img{
+    width: 15px;
+    margin-right: 9px;
+}
+.icon i{
+    font-size: 29px;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+.icon i:hover{
+    color: hsl(210, 100%, 64%);
+    cursor: pointer;
+}
+
+.title-huddle-box{
+    padding: 20px;
+}
+.title-huddle {
+    font-size: 14px;
+    padding: 9px;
+}
+.flyo-text{
+    display: grid;
+}
+.flyo-text input{
+    padding: 7px 0px 7px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.flyo-text button{
+    padding: 10px 0px 10px 0px;
+    margin-left: 180px;
+    margin-right: 23px;
+    border-radius: 4px;
+    border: none;
+    background: hsl(322, 100%, 66%);
+    cursor: pointer;
+    color: white;
+    border: 1px hsl(322, 93%, 61%);
+}
+.flyo-text button:hover{
+    background: hsla(322, 100%, 66%, 0.747);
+}
+@media(min-width:425px){
+    
+.flyo-text button {
+    margin-left: 715px;
+    margin-right: 23px;
+}
+}
+@media(min-width:499px){
+    
+.flyo-text button{
+    margin-left: 286px;
+    margin-right: 23px;
+}
+}
+@media(min-width:715px){
+    
+.flyo-text button{
+    margin-left: 415px;
+    margin-right: 23px;
+}
+}
+@media(min-width:850px){
+    
+.flyo-text button{
+    margin-left: 515px;
+    margin-right: 23px;
+}
+}
+@media(min-width:1024px){
+    .huddle button {
+        margin-left: 477px;
+      
+    }
+    .huddle button:hover{
+        background: hsla(322, 100%, 66%, 0.747);
+    }
+
+.banner img {
+    width: 800px;
+    padding: 10px;
+    margin-left: 111px;
+}
+.huddle-curved{
+    display: flex;
+    justify-content: center;
+}
+.huddle-icon {
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+.huddle-title {
+    display: flex;
+    background-image: url(../images/bg-section-bottom-desktop-2.svg);
+}
+.image-huddle img {
+    max-width: 400px;
+    margin-bottom: 30px;
+    margin-left: 8px;
+}
+.huddle-image p {
+    text-align: left;
+    font-size: 17px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.huddle-title-card{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: row-reverse;
+}
+.huddle-builder button {
+    padding: 10px 15px 10px 15px;
+    margin-left: 441px;
+}
+.huddle-builder button:hover{
+    background: hsla(322, 100%, 66%, 0.747);
+   
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.flyo-text {
+    display: flex;
+    align-items: center;
+}
+.flyo-text input {
+    padding: 10px 0px 10px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    border: none;
+} 
+.flyo-text button{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px 40px 10px 40px;
+}
+.huddle-footer svg {
+    margin-bottom: 30px;
+}
+.title-huddle {
+    line-height: 28px;
+}
+.phone img {
+    width: 18px;
+    margin-right: 9px;
+}
+.email img {
+    width: 23px;
+    margin-right: 9px;
+}
+.icon i {
+    font-size: 31px;
+    padding: 10px;
+    margin-bottom: 29px;
+    margin-top: 20px;
+}
+.icon i:hover{
+    color: hsl(210, 100%, 64%);
+}
+}
+
+@media(min-width:1366px){
+   nav img {
+        max-width: 197px;
+        height: 40px;
+    }
+    .huddle button {
+    background: hsl(322, 100%, 66%);
+    margin-left: 600px;
+}
+    .huddle button:hover{
+        background: hsla(322, 100%, 66%, 0.747);
+    }
+
+.banner img {
+    width: 850px;
+    padding: 10px;
+    margin-left: 221px;
+}
+.huddle-curved{
+    display: flex;
+    justify-content: center;
+}
+.huddle-icon {
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+.huddle-title {
+    display: flex;
+    background-image: url(../images/bg-section-bottom-desktop-2.svg);
+}
+
+.image-huddle img {
+    max-width: 500px;
+    margin-bottom: 30px;
+    margin-left: 8px;
+}
+.huddle-image h2 {
+    font-size: 25px;
+    margin-top: 100px;
+    padding: 10px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.huddle-image p {
+    text-align: left;
+    font-size: 17px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.huddle-title-card{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: row-reverse;
+}
+.huddle-builder button {
+    padding: 10px 15px 10px 15px;
+    margin-left: 611px;
+}
+.huddle-builder button:hover{
+    background: hsla(322, 100%, 66%, 0.747);
+   
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.flyo-text {
+    display: flex;
+    align-items: center;
+}
+.flyo-text input {
+    padding: 10px 0px 10px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    border: none;
+} 
+.flyo-text button{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px 40px 10px 40px;
+}
+.huddle-footer svg {
+    margin-bottom: 30px;
+}
+.title-huddle {
+    line-height: 28px;
+}
+.phone img {
+    width: 18px;
+    margin-right: 9px;
+}
+.email img {
+    width: 23px;
+    margin-right: 9px;
+}
+.icon i {
+    font-size: 31px;
+    padding: 10px;
+    margin-bottom: 29px;
+    margin-top: 20px;
+}
+.icon i:hover{
+    color: hsl(210, 100%, 64%);
+}
+}
+@media(min-width:2560px){
+    .banner{
+        margin-left: 30%;
+    }
+    .huddle-title {
+        display: flex;
+        padding-left: 400px;
+    }
+    .huddle-title-card {
+        margin-right: 400px;
+    }
+    .huddle-builder button {
+        margin-left: 1200px;
+    }
+}
