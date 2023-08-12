@@ -1,12 +1,12 @@
 # Frontend Mentor - Order summary card
 
-![Design preview for the Order summary card coding challenge](../huddle-landing-page-with-curved-sections-master/images/my-preview.png)
+![Design preview for the Order summary card coding challenge](/images/my-preview.png)
 
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
 
-[Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2) challenges help you improve your coding skills by building realistic projects.
+[Frontend Mentor](file:///G:/kazim%20file/kazim%20floder/challenger/challenger-3_origin/indix.html) challenges help you improve your coding skills by building realistic projects.
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
